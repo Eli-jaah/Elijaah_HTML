@@ -1,0 +1,144 @@
+body{
+  background-color: #FBE4FF;
+}
+ul {
+  letter-spacing: 5px;
+  font-family: "Roboto", serif;
+}
+
+h1 {
+  color: #efefef;
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Roboto", serif;
+}
+p {
+  /* this is causing an issue with some of my formatting, make sure to use classes instead of changing the entire selector */
+  font-size: 12pt;
+  text-align: center;
+  font-family: "Roboto", serif;
+  max-width: 600px;
+  margin: auto;
+}
+a {
+  color: purple;
+  font-family: "Roboto", serif;
+}
+nav {
+  position: fixed;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-family: "Roboto", serif;
+}
+h2 {
+  text-align: center;
+  font-family: "Roboto", serif;
+}
+.eli {
+  text-align: center;
+  font-family: "Roboto", serif;
+}
+#testid1 {
+  color: #f00;
+}
+.testclass1 {
+  color: blue;
+}
+#testid2 {
+  color: green;
+}
+.divPink {
+  background-color: #cc759a;
+}
+.divPink,
+.divBlue {
+  border: double;
+}
+form {
+  padding: 50px;
+  font-weight: bolder;
+  font-family: "Roboto";
+  background-color: #cc759a;
+}
+form:hover {
+  background-color: #ffb3ba;
+  transition: 100ms;
+  font-size: 20px;
+  text-decoration: underline;
+}
+input:focus {
+  text-transform: uppercase;
+}
+.button {
+  background-color: #957dad;
+  transition: 0.25s;
+  font-size: 16pt;
+}
+.button:hover {
+  background-color: #cc759a;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.center2 {
+  float: left;
+}
+tr {
+  font-style: italic;
+  font-family: "Roboto", serif;
+}
+td {
+  font-family: "Roboto", serif;
+}
+#ul {
+  letter-spacing: 2px;
+  font-family: "Roboto", serif;
+}
+span {
+  color: #fbf8f8;
+  background-color: #eeaa56;
+  font-size: 12pt;
+  /*color: #81CBFE; background-color: #ECE8C0; font-size: 16pt;*/
+}
+.container {
+  display: inline-grid;
+}
+#divcenter {
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#divcenter2 {
+  max-width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fixed {
+  /* this allows a fixed position selector where ever you base bottom/right/top/left values */
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  background-color: white;
+  z-index: 10; /*shows where something should be on the screen (background/foreground) higher value = foreground lower value = background)*/
+}
+.padding30 {
+  padding: 30px;
+}
+.relativec {
+  position: relative;
+  left: 160px;
+  bottom: 70px;
+  width: 200px;
+  padding: 10px;
+}
+.absolutec {
+  position: absolute;
+  left: 900px;
+  width: 0px;
+}
